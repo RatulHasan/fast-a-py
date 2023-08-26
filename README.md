@@ -32,3 +32,8 @@ pip3 install -r requirements.txt
 ```bash
 pip3 freeze > requirements.txt
 ```
+
+### To run the project
+```bash
+uvicorn main:app --reload  --port [port] --host [host]
+```
